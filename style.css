@@ -1,0 +1,67 @@
+body{
+	margin: 0px;
+	background: url("images/background.jpg") no-repeat center center fixed;
+  	height: 100%;
+  	overflow: hidden;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	font-family: 'Roboto', sans-serif;
+  }
+
+.btn{
+	width: 150px !important;
+	position: absolute;
+ 	transform: translateX(-50%, -50%);
+ 	left: 42%;
+  	top:80%;
+}
+h2 {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 140px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px black;
+}
+.photo_text{
+	position: absolute;
+ 	/*transform: translateX(-50%, -50%);*/
+ 	left: 58%;
+  	top:35%;
+}
+.contests_text{
+	position: absolute;
+ 	/*transform: translateX(-50%, -50%);*/
+ 	left: 56%;
+  	top:50%;
+}
+.year_text{
+	position: absolute;
+ 	/*transform: translateX(-50%, -50%);*/
+ 	left: 10%;
+  	top:50%;
+}
+
+@media screen and (min-width:100px) and (max-width:768px) {
+	.year_text{
+	position: absolute;
+ 	/*transform: translateX(-50%, -50%);*/
+ 	left: 5%;
+  	top:50%;
+  	font-size: 100px;
+}
+.photo_text{
+	position: absolute;
+ 	/*transform: translateX(-50%, -50%);*/
+ 	left: 62%;
+  	top:45%;
+  	font-size: 65px;
+}
+.contests_text{
+	position: absolute;
+ 	/*transform: translateX(-50%, -50%);*/
+ 	left: 60%;
+  	top:52%;
+  	font-size: 65px;
+}}
